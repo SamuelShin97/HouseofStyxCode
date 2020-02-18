@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf2c4f45d028374a915daba7f02a042, type: 3}
+  m_Name: StrafeState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 20d7f1089b1cf944ea162c075093c713, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 4cd5418e9beea7347bec50b1c00bcda7, type: 2}
+    trueState: {fileID: 11400000, guid: 2cf608879ef09274e96350ba8cb89e18, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  sceneGizmoColor: {r: 1, g: 0.87176263, b: 0, a: 1}

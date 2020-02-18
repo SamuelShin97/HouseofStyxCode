@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf2c4f45d028374a915daba7f02a042, type: 3}
+  m_Name: ScreamerAttackState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 7660c3d2f739db64ca205da262b95b9d, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 46a40a8852e512a4681c31fc0e3ac0c9, type: 2}
+    trueState: {fileID: 11400000, guid: 48b5cbe1df9b2c84489fac55fdbc6b04, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  - decision: {fileID: 11400000, guid: 59853beaaebe4224caa5788f4a1aa3c2, type: 2}
+    trueState: {fileID: 11400000, guid: d8d7e8e1089701448b7562589f37b2dd, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}

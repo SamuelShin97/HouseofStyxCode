@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf2c4f45d028374a915daba7f02a042, type: 3}
+  m_Name: GruntAttackState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: c9e5e615ef98bb44a97a8103b49b8b91, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 6e49f8fb552c95c49ab33a6457561c0d, type: 2}
+    trueState: {fileID: 11400000, guid: 2cf608879ef09274e96350ba8cb89e18, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  - decision: {fileID: 11400000, guid: 377a127e19fdaa641a376809752cfc5e, type: 2}
+    trueState: {fileID: 11400000, guid: 2cfb574745da4274f95dc3cfed0f83b6, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  - decision: {fileID: 11400000, guid: 47f08b2ee42047948b4d663f7cc2be91, type: 2}
+    trueState: {fileID: 11400000, guid: 0c409a1e24774b44e86dcc475ba3060f, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  - decision: {fileID: 11400000, guid: ddc3220b0a334584d80f62ac8268b4e5, type: 2}
+    trueState: {fileID: 11400000, guid: 3ac02215fe6d78046b09638c71f9b644, type: 2}
+    falseState: {fileID: 11400000, guid: 58775b413963d3a47ab5ea2d8fd637ac, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}
